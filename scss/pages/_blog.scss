@@ -1,0 +1,65 @@
+.header {
+  padding-top: 2.7rem;
+  padding-bottom: 2.7rem;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sitenav {
+  display: flex;
+  margin-left: auto;
+}
+
+.sitenav-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.3rem;
+}
+
+.sitenav-link {
+  font-family: "Heebo";
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #000000;
+}
+
+.main {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-description {
+  font-family: Heebo;
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 2.7;
+  color: #21243d;
+  margin-bottom: 5.5rem;
+}
+
+.hero-context {
+  flex-direction: column;
+}
+.hero-text {
+  font-family: Heebo;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #21243d;
+}
+.hero-list {
+}
+.hero-item {
+}
+.hero-content {
+}

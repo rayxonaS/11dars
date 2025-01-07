@@ -1,0 +1,29 @@
+.header {
+  padding-top: 2.7rem;
+  padding-bottom: 2.7rem;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sitenav {
+  display: flex;
+  margin-left: auto;
+}
+
+.sitenav-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.3rem;
+}
+
+.sitenav-link {
+  font-family: "Heebo";
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #000000;
+}
