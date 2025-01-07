@@ -5,24 +5,167 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Technology | Works</title>
     <link rel="stylesheet" href="../css/style.min.css" />
+    <link rel="stylesheet" href="../scss/style.scss" />
   </head>
   <body>
-    <header class="header">
-      <div class="header-container container">
-        <nav class="sitenav">
-          <ul class="sitenav-list">
-            <li class="sitenav-item">
-              <a class="sitenav-link" href="#" id="active">Works</a>
+    <header class="work-header">
+      <div class="work-header-container container">
+        <nav class="work-sitenav">
+          <ul class="work-list">
+            <li class="work-item">
+              <a class="work-link" href="#" id="active">Works</a>
             </li>
-            <li class="sitenav-item">
-              <a class="sitenav-link" href="./pages/blog.html">Blog</a>
+            <li class="work-item">
+              <a class="work-link" href="./pages/blog.html">Blog</a>
             </li>
-            <li class="sitenav-item">
-              <a class="sitenav-link" href="./pages/details.html">Contact</a>
+            <li class="work-item">
+              <a class="work-link" href="./pages/details.html">Contact</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
+
+    <main class="works-main">
+      <section class="works">
+        <div class="works-container container">
+          <h2 class="works-text">Works</h2>
+          <div class="work-main">
+            <picture>
+              <source
+                srcset="../images/features.mobile.png"
+                media="(max-width: 375px)"
+              />
+
+              <img
+                src="../images/features.desktop.png"
+                alt=""
+                width="246px"
+                height="180px"
+              />
+            </picture>
+            <div class="works-main-context">
+              <h2 class="works-main-context-text">Designing Dashboards</h2>
+              <ul class="works-main-context-list">
+                <li class="works-main-context-item-first">2020</li>
+                <li class="works-main-context-item">Dashboard</li>
+              </ul>
+              <p class="works-main-context-description">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+          <div class="works-secondary">
+            <picture>
+              <img
+                src="../images/features.2.png"
+                alt=""
+                width="246px"
+                height="180px"
+              />
+            </picture>
+            <div class="works-secondary-context">
+              <h2 class="works-secondary-context-text">
+                Vibrant Portraits of 2020
+              </h2>
+              <ul class="works-secondary-context-list">
+                <li class="works-secondary-context-item-first">2018</li>
+                <li class="works-secondary-context-item">Illustration</li>
+              </ul>
+              <p class="works-secondary-context-description">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+          <div class="works-third">
+            <picture>
+              <img
+                src="../images/features.3.png"
+                alt=""
+                width="246px"
+                height="180px"
+              />
+            </picture>
+            <div class="works-third-context">
+              <h2 class="works-third-context-text">
+                36 Days of Malayalam type
+              </h2>
+              <ul class="works-third-context-list">
+                <li class="works-third-context-item-first">2018</li>
+                <li class="works-third-context-item">Typography</li>
+              </ul>
+              <p class="works-third-context-description">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+
+          <div class="works-fourth">
+            <picture>
+              <source srcset="../images/works.mobile.4.png" />
+              <img
+                src="../images/features.4.png"
+                alt=""
+                width="246px"
+                height="180px"
+              />
+            </picture>
+            <div class="works-fourth-context">
+              <h2 class="works-fourth-context-text">Components</h2>
+              <ul class="works-fourth-context-list">
+                <li class="works-fourth-context-item-first">2018</li>
+                <li class="works-fourth-context-item">Components, Design</li>
+              </ul>
+              <p class="works-fourth-context-description">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container container">
+        <ul class="footer-list">
+          <li class="footer-item">
+            <img src="../images/fb.png" alt="" width="30px" height="30px" />
+          </li>
+          <li class="footer-item">
+            <img
+              src="../images/instagram.png"
+              alt=""
+              width="30px"
+              height="30px"
+            />
+          </li>
+          <li class="footer-item">
+            <img
+              src="../images/twitter.png"
+              alt=""
+              width="30px"
+              height="30px"
+            />
+          </li>
+          <li class="footer-item">
+            <img
+              src="../images/Linkedin.png"
+              alt=""
+              width="30px"
+              height="30px"
+            />
+          </li>
+        </ul>
+        <p class="footer-text">Copyright ©2020 All rights reserved</p>
+      </div>
+    </footer>
   </body>
 </html>
